@@ -35,10 +35,48 @@
     <!-- header  -->
     <header>
         <!-- nav  -->
-        <nav></nav>
+        <nav>
+            <div class="navbar bg-gradient-to-r from-lime-100 via-red-100 to-amber-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h7" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Homepage</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>About</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-center">
+                    <a class="btn btn-ghost text-2xl font-extrabold">Tea House</a>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn  btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-ghost btn-circle ml-2  md:ml-8">
+                        <div class="indicator">
+                            <img src="./images/client.png" alt="">
+                            <span class="badge badge-xs badge-primary indicator-item"></span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </nav>
 
         <!-- banner  -->
-        <div>
+        <div class="bg-gradient-to-r from-rose-100 via-violet-200 to-green-100 mt-6 lg:py-10">
 
             <div class="hero-content flex-col lg:flex-row justify-between ">
                 <div>
@@ -48,7 +86,7 @@
                         Satisfaction To Your
                         Taste
                         Buds.</p>
-                    <button class="btn btn-primary">Explore More</button>
+                    <button class="btn  bg-gradient-to-r from-red-300 to-orange-400">Explore More</button>
                 </div>
                 <div>
                     <img src="./images/banner.png" class="max-w-sm md:max-w-lg " />
@@ -163,7 +201,7 @@
                         have suffered alteration in some form, by injected humour, or randomised words which don't look
                         even
                         slightly believable. </p>
-                    <button class="btn btn-primary">Show All</button>
+                    <button class="btn  bg-gradient-to-r from-cyan-400 to-blue-400 ml-4">Show All</button>
                 </div>
             </div>
 
@@ -211,10 +249,122 @@
             </div>
 
         </section>
+
+        <!-- News & Events -->
+        <section class="my-24">
+            <div class="items-center text-center my-4 lg:max-w-4xl mx-auto">
+                <h2 class="text-6xl font-bold">News & Events</h2>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable.
+            </div>
+            <div class="divider">OR</div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 my-12 gap-12 lg:gap-20">
+                <!-- card-1  -->
+                <div class="card bg-gradient-to-r from-lime-200 to-orange-200 shadow-xl">
+                    <figure>
+                        <img src="./images/news-1.png" alt="Shoes" class="rounded-xl w-full px-2 pt-2" />
+                    </figure>
+                    <div class="card-body">
+                        <p>Feb 05, 2027</p>
+                        <h2 class="card-title text-2xl font-extrabold ">Collecting 8 points for discount</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <div>
+                            <button class="btn btn-outline btn-ghost font-extrabold">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2  -->
+                <div class="card bg-gradient-to-r from-lime-200 to-teal-100 shadow-xl">
+                    <figure>
+                        <img src="./images/news-1.png" alt="Shoes" class="rounded-xl w-full px-2 pt-2" />
+                    </figure>
+                    <div class="card-body">
+                        <p>Feb 05, 2027</p>
+                        <h2 class="card-title text-2xl font-extrabold ">Collecting 8 points for discount</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <div>
+                            <button class="btn btn-outline btn-ghost font-extrabold">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-gradient-to-r from-lime-200 to-amber-200 shadow-xl">
+                    <figure>
+                        <img src="./images/news-1.png" alt="Shoes" class="rounded-xl w-full px-2 pt-2" />
+                    </figure>
+                    <div class="card-body">
+                        <p>Feb 05, 2027</p>
+                        <h2 class="card-title text-2xl font-extrabold ">Collecting 8 points for discount</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available.</p>
+                        <div>
+                            <button class="btn btn-outline btn-ghost font-extrabold">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
     </main>
 
     <!-- footer  -->
-    <footer></footer>
+    <footer class=" bg-gradient-to-r from-rose-100 via-violet-200 to-green-100">
+        <div class="flex justify-between pt-20 mx-10 lg:mx-24">
+            <img src="./images/cup.png" alt="">
+            <p>
+                <span class="font-extrabold">Ready to get started?</span>
+                <button class="btn  bg-gradient-to-r from-red-300 to-orange-400 ml-4">Get Started</button>
+            </p>
+        </div>
+
+
+        <div class="footer p-10  text-base-content">
+            <nav>
+                <header class="footer-title">Services</header>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <header class="footer-title">Company</header>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <header class="footer-title">Legal</header>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <header class="footer-title">Newsletter</header>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="Email Address"
+                            class="py-4 bg-transparent border-b-2 border-black outline-none" />
+                        <button class=" px-6  btn bg-gradient-to-r from-red-300 to-orange-400 rounded-full"><i
+                                class="fa-regular fa-hand-point-right text-xl "></i></button>
+                    </div>
+                </fieldset>
+                <div class="flex gap-10 mt-4">
+                    <img src="./icons/Frame (1).svg" alt="">
+                    <img src="./icons/Frame (2).svg" alt="">
+                    <img src="./icons/Frame.svg" alt="">
+                </div>
+            </form>
+        </div>
+        <div class="text-center font-bold my-6 pb-10">
+            <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </div>
+    </footer>
 </body>
 
 </html>
